@@ -9,3 +9,14 @@ const calculateRandomFloat = (min, max) => {
 }
 
 export default calculateRandomFloat;
+const beskeder = [
+  "Du fandt en hemmelig skat 🪙",
+  "En kat stjæler din sandwich 🐈",
+  "Du får +10 held i dag ✨",
+  "En mystisk dør åbner sig 🚪",
+  "Kaffen smager ekstra godt ☕"
+];
+
+const tilfældigBesked = beskeder[Math.floor(Math.random() * beskeder.length)];
+
+console.log(tilfældigBesked);
