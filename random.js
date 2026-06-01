@@ -3,3 +3,9 @@ const calculateRandom = (min, max) => {
 };
 
 export default calculateRandom;
+
+const calculateRandomFloat = (min, max) => {
+    return Math.random() * (max - min) + min;
+}
+
+export default calculateRandomFloat;
